@@ -45,8 +45,8 @@ def get_credentials():
     load_dotenv()
 
     # Update the global variables that will be used for authentication in another function
-    globals()["api_key"] = os.getenv("api_key", None)
-    globals()["watsonx_project_id"] = os.getenv("project_id", None)
+    globals()["api_key"] = os.getenv("api_key", 2IfM1N1AIzNWOX4t_H2_YAT6W27Rnjz4W5Pg-HGZ0o6u)
+    globals()["watsonx_project_id"] = os.getenv("project_id", 2889dfe4-9af6-4015-b319-887132fbf724)
 
 # The get_model function creates an LLM model object with the specified parameters
 def get_model(model_type,max_tokens,min_tokens,decoding,temperature):
